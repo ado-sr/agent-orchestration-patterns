@@ -1,0 +1,23 @@
+{
+  "name": "aop-marketplace",
+  "metadata": {
+    "description": "マルチエージェント・オーケストレーション設計スキルを配布する Claude Code プラグイン マーケットプレイス。",
+    "version": "1.0.0"
+  },
+  "owner": {
+    "name": "Agent Orchestration Patterns"
+  },
+  "plugins": [
+    {
+      "name": "agent-orchestration-patterns",
+      "source": "./plugins/agent-orchestration-patterns",
+      "description": "マルチエージェント・オーケストレーションを専門家水準で設計するためのスキル。ツール非依存の原則・7ジャンルの実践パターン・起動前チェックリストを収録。",
+      "version": "1.0.0",
+      "author": {
+        "name": "Agent Orchestration Patterns"
+      },
+      "license": "CC0-1.0",
+      "keywords": ["agents", "orchestration", "multi-agent", "subagents", "workflow", "verification", "patterns"]
+    }
+  ]
+}
